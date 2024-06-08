@@ -6,9 +6,9 @@ const mysql = require('mysql');
 // database connection and query promisify
 var conn = mysql.createPool({
     host     : 'localhost',
-    user     : 'username',
+    user     : 'root',
     password : 'password',
-    database : 'database',
+    database : 'skycargo',
     connectionLimit : 100
   });
 
